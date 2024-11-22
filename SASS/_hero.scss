@@ -1,0 +1,23 @@
+@use "variables" as var;
+@use "assets/btn.scss";
+
+.hero{
+    margin: 2rem 0rem 3rem 0rem;
+    padding: 0rem 2rem;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+
+    &__title{
+        margin-bottom: 0.5rem;
+    }
+    &__subtitle{
+        margin-bottom: 1.8em;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .btn{
+        @include btn.btn;
+    }
+    
+}
