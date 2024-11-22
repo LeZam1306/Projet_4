@@ -1,0 +1,51 @@
+@use "variables" as var;
+@use "mixin" as mix;
+
+.restaurants{
+    @include mix.flex-set(column,flex-start);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 1.5rem;
+
+    &__title{
+        padding-left: 0.5em;
+    }
+
+    &__list{
+        @include mix.flex-set(column,center);
+        gap: 1.2rem;
+    }
+
+    .card{
+        @include mix.shadow-card;  
+        border-radius:15px;
+        overflow: hidden;
+
+        &__image > img{
+            height: 180px;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        &__new{
+            display: none;
+        }
+        &__content{
+            @include mix.flex-set(row,space-between);
+            align-items: center;
+            background-color: var.$secondary-background-color;
+            padding: 1rem 1rem;
+        }
+        &__details{
+            & > h3{
+                font-size: 20px;
+                margin-bottom: 0.3em;
+            }
+            & > p{
+                font-size: 17px;
+                font-weight: 300;
+            }
+        }
+        
+    }
+}

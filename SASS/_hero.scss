@@ -2,8 +2,6 @@
 @use "assets/btn.scss";
 
 .hero{
-    margin: 2rem 0rem 3rem 0rem;
-    padding: 0rem 2rem;
     flex-direction: column;
     text-align: center;
     display: flex;
@@ -12,7 +10,7 @@
         margin-bottom: 0.5rem;
     }
     &__subtitle{
-        margin-bottom: 1.8em;
+        margin-bottom: 1.5em;
         font-size: 18px;
         font-weight: 300;
     }

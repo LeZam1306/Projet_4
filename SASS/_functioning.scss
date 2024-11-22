@@ -1,0 +1,50 @@
+@use "variables" as var;
+@use "mixin" as mix;
+
+.functioning{
+    background-color: var.$secondary-background-color;
+    @include mix.flex-set(column,flex-start);
+    gap: 1.5rem;
+
+    &__list{
+        @include mix.flex-set(column,center);
+        gap: 2rem;
+    }
+    &__icon{
+        color: #7E7E7E;
+
+        &--purple{
+            color: var.$main-color;
+        }
+    }
+
+    &__content{
+        @include mix.flex-set(row,flex-start);
+        @include mix.shadow-card;
+        background-color: var.$main-background-color;
+        border-radius: 20px;
+        height: 4.5em;
+        position: relative;
+
+        & > p{
+            @include mix.flex-set(column,center);
+            align-items: center;
+            text-align: center;
+            color: white;
+            background-color: var.$main-color;
+            height: 24px;
+            width: 24px;
+            border-radius: 50%;
+            position: absolute;
+            transform: translate(-50%,50%);
+            bottom: 50%;
+        }
+        & > div{
+            @include mix.flex-set(row,flex-start);
+            align-items: center;
+            gap: 1em;
+            margin-left: 2em;
+        }
+    }
+
+}
