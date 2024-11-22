@@ -20,6 +20,7 @@
         @include mix.shadow-card;  
         border-radius:15px;
         overflow: hidden;
+        position: relative;
 
         &__image > img{
             height: 180px;
@@ -28,7 +29,24 @@
             object-position: center;
         }
         &__new{
-            display: none;
+            @include mix.flex-set(row,center);
+            align-items: center;
+            position: absolute;
+            transform: translateX(-150%);
+            left: 100%;
+            margin: 1rem 2rem;
+            box-shadow: 0px 4px 0px var.$shadow-color;
+            height: 30px;
+            padding: 0rem 1rem;
+            border-radius: 2px;
+            font-size: 14px;
+            font-weight: 500;
+            background-color: var.$tertiary-color;
+            color: var.$tertiary-dark-color;
+            
+            &--none{
+                display: none;
+            }
         }
         &__content{
             @include mix.flex-set(row,space-between);
