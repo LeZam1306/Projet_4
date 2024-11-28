@@ -12,6 +12,9 @@
         transform: scale(0.3);
         display: inline-block;
     }
+    &__item > a{
+        color: white;
+    }
     &__list{
         @include mix.flex-set(column,flex-start);
         gap: 0.5rem;
@@ -20,5 +23,6 @@
         margin-right: 0.5rem;
         display: inline-block;
         width: 1rem;
+        
     }
 }
