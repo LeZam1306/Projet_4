@@ -1,7 +1,17 @@
 @use "variables" as var;
 @use "mixin" as mix;
-
 .restaurants{
+    a{
+        color: black;
+    }
+    input{
+        display: none;
+    }
+    .relative-for-like{
+        position: relative;
+    }
+
+
     @include mix.flex-set(column,flex-start);
     padding-left: 1rem;
     padding-right: 1rem;
@@ -55,6 +65,32 @@
             background-color: var.$secondary-background-color;
             padding: 1rem 1rem;
         }
+        //generator svg icons
+        @for $i from 1 through 4{
+            &__like-#{$i}{ //For the location of the heart on the map
+                position: absolute;
+                z-index: 2;
+                bottom: 24px;
+                right: 1.5em;
+            }
+            &__icon-#{$i}{ //Style of like
+                transform-origin: center;
+                width: 24px;
+                stroke: Black;
+                stroke-width: 2em;
+                overflow: visible;
+                cursor: pointer;
+
+                &--gradient{
+                    stop:first-child{
+                        stop-color: white;
+                    }
+                    stop:last-child{
+                        stop-color: white;
+                    }
+                }
+            }
+        }  
         &__details{
             & > h3{
                 font-size: 20px;

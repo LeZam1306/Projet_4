@@ -14,9 +14,9 @@
 <body>
     <div class="loading-page">
         <div class="loading-page__dots">
-            <div class="loading-page__dots--one"></div>
-            <div class="loading-page__dots--two"></div>
-            <div class="loading-page__dots--three"></div>
+            <div class="loading-page__dots--1"></div>
+            <div class="loading-page__dots--2"></div>
+            <div class="loading-page__dots--3"></div>
         </div>
     </div>
     <header class="site-header">
@@ -42,21 +42,21 @@
                         <p>1</p>
                         <div>
                             <i class="fa-solid fa-mobile-screen-button fa-lg functioning__icon"></i>
-                            <p>Choisissez un restaurant</p>
+                            <h3 class="functioning__content-title">Choisissez un restaurant</h3>
                         </div>
                     </li>
                     <li class="functioning__content">
                         <p>2</p>
                         <div>
                             <i class="fa-solid fa-list fa-lg functioning__icon"></i>
-                            <p>Composez votre menu</p>
+                            <h3 class="functioning__content-title">Composez votre menu</h3>
                         </div>
                     </li>
                     <li class="functioning__content">
                         <p>3</p>
                         <div>
                             <i class="fa-solid fa-store fa-lg functioning__icon--purple"></i>
-                            <p>Dégustez au restaurant</p>
+                            <h3 class="functioning__content-title">Dégustez au restaurant</h3>
                         </div>
                     </li>
                 </ul>
@@ -67,68 +67,120 @@
             <article>
                 <ul class="restaurants__list">
                     <li>
-                        <a href="#" class="card">
-                            <div class="card__image">
-                                <p class="card__new">Nouveau</p>
-                                <img src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" 
-                                alt="Photo d'un plat du restaurant">
-                            </div>
-                            <div class="card__content">
-                                <div class="card__details">
-                                    <h3 class="card__title">La palette du goût</h3>
-                                    <p class="card__location">Ménilmontant</p>
+                        <div class="relative-for-like">
+                            <input type="checkbox" name="like-1" id="like-1">
+                            <label class="card__like-1" for="like-1">
+                                <svg  class="card__icon-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <defs>
+                                    <linearGradient class="card__icon-1--gradient" id="gradient-heart-1" x1="0" x2="0" y1="1" y2="0">
+                                        <stop offset="0%" stop-color="#000"/>
+                                        <stop offset="100%" stop-color="#000"/>
+                                    </linearGradient>
+                                </defs>
+                                <path fill="url('#gradient-heart-1')" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/>
+                                </svg>
+                            </label>
+                            <a href="#" class="card">
+                                <div class="card__image">
+                                    <p class="card__new">Nouveau</p>
+                                    <img src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" 
+                                    alt="Photo d'un plat du restaurant">
                                 </div>
-                                <i class="card__icon fa-regular fa-heart fa-xl"></i>
-                            </div>
-                        </a>
+                                <div class="card__content">
+                                    <div class="card__details">
+                                        <h3 class="card__title">La palette du goût</h3>
+                                        <p class="card__location">Ménilmontant</p>
+                                    </div> 
+                                </div>
+                            </a>
+                        </div>
                     </li>
                     <li>
-                        <a href="#" class="card">
-                            <div class="card__image">
-                                <p class="card__new">Nouveau</p>
-                                <img src="assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" 
-                                alt="Photo d'un plat du restaurant">
-                            </div>
-                            <div class="card__content">
-                                <div class="card__details">
-                                    <h3 class="card__title">La note enchantée</h3>
-                                    <p class="card__location">Charonne</p>
+                        <div class="relative-for-like">
+                            <input type="checkbox" name="like-2" id="like-2">
+                            <label class="card__like-2" for="like-2">
+                                <svg class="card__icon-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <defs>
+                                        <linearGradient class="card__icon-2--gradient" id="gradient-heart-2" x1="0" x2="0" y1="1" y2="0">
+                                            <stop offset="0%" stop-color="#000"/>
+                                            <stop offset="100%" stop-color="#000"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <path fill="url('#gradient-heart-2')" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/>
+                                </svg>
+                            </label>
+                            <a href="#" class="card">
+                                <div class="card__image">
+                                    <p class="card__new">Nouveau</p>
+                                    <img src="assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" 
+                                    alt="Photo d'un plat du restaurant">
                                 </div>
-                                <i class="card__icon fa-regular fa-heart fa-xl"></i>
-                            </div>
-                        </a>
+                                <div class="card__content">
+                                    <div class="card__details">
+                                        <h3 class="card__title">La note enchantée</h3>
+                                        <p class="card__location">Charonne</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </li>
                     <li>
-                        <a href="#" class="card">
-                            <div class="card__image">
-                                <p class="card__new card__new--none">Nouveau</p>
-                                <img src="assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" 
-                                alt="Photo d'un plat du restaurant">
-                            </div>
-                            <div class="card__content">
-                                <div class="card__details">
-                                    <h3 class="card__title">À la française</h3>
-                                    <p class="card__location">Cité Rouge</p>
+                        <div class="relative-for-like">
+                            <input type="checkbox" name="like-3" id="like-3">
+                            <label class="card__like-3" for="like-3">
+                                <svg class="card__icon-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <defs>
+                                        <linearGradient class="card__icon-3--gradient" id="gradient-heart-3" x1="0" x2="0" y1="1" y2="0">
+                                            <stop offset="0%" stop-color="#000"/>
+                                            <stop offset="100%" stop-color="#000"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <path fill="url('#gradient-heart-3')" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/>
+                                </svg>
+                            </label>
+                            <a href="#" class="card">
+                                <div class="card__image">
+                                    <p class="card__new card__new--none">Nouveau</p>
+                                    <img src="assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" 
+                                    alt="Photo d'un plat du restaurant">
                                 </div>
-                                <i class="card__icon card__icon--like fa-regular fa-heart fa-xl"></i>
-                            </div>
-                        </a>
+                                <div class="card__content">
+                                    <div class="card__details">
+                                        <h3 class="card__title">À la française</h3>
+                                        <p class="card__location">Cité Rouge</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </li>
                     <li>
-                        <a href="#" class="card">
-                            <div class="card__image">
-                                <p class="card__new card__new--none">Nouveau</p>
-                                <img src="assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" 
-                                alt="Photo d'un plat du restaurant">
-                            </div>
-                            <div class="card__content">
-                                <div class="card__details">
-                                    <h3 class="card__title">Le délice des sens</h3>
-                                    <p class="card__location">Folie-Méricourt</p>
+                        <div class="relative-for-like">
+                            <input type="checkbox" name="like-4" id="like-4">
+                            <label class="card__like-4" for="like-4">
+                                <svg class="card__icon-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <defs>
+                                        <linearGradient class="card__icon-4--gradient" id="gradient-heart-4" x1="0" x2="0" y1="1" y2="0">
+                                            <stop offset="0%" stop-color="#000"/>
+                                            <stop offset="100%" stop-color="#000"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <path fill="url('#gradient-heart-4')" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/>
+                                </svg>
+                            </label>
+                            <a href="#" class="card">
+                                <div class="card__image">
+                                    <p class="card__new card__new--none">Nouveau</p>
+                                    <img src="assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" 
+                                    alt="Photo d'un plat du restaurant">
                                 </div>
-                                <i class="fa-regular fa-heart fa-xl card__icon"></i>   
-                            </div>
-                        </a>
+                                <div class="card__content">
+                                    <div class="card__details">
+                                        <h3 class="card__title">Le délice des sens</h3>
+                                        <p class="card__location">Folie-Méricourt</p>
+                                    </div>   
+                                </div>
+                            </a>
+                        </div>
                     </li>
                 </ul>
             </article>

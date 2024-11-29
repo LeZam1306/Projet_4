@@ -17,7 +17,7 @@
             color: var.$main-color;
         }
     }
-
+    
     &__content{
         @include mix.flex-set(row,flex-start);
         @include mix.shadow-card;
@@ -25,6 +25,10 @@
         border-radius: 20px;
         height: 4.5em;
         position: relative;
+
+        &-title{
+            font-weight: 500;
+        }
 
         & > p{
             @include mix.flex-set(column,center);
