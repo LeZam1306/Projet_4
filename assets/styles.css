@@ -73,7 +73,14 @@ section {
     opacity: 0;
   }
 }
-@keyframes like {}
+@keyframes like {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
 .loading-page {
   display: flex;
   flex-direction: row;
@@ -84,7 +91,7 @@ section {
   width: 100%;
   height: 100vh;
   z-index: 2;
-  animation: finish-load 300ms 0s ease-in-out forwards;
+  animation: finish-load 300ms 2s ease-in-out forwards;
 }
 .loading-page__dots {
   display: flex;
@@ -249,6 +256,7 @@ section {
 }
 .functioning__content-title {
   font-weight: 500;
+  font-size: 16px;
 }
 .functioning__content > p {
   display: flex;
@@ -282,15 +290,6 @@ section {
   padding-right: 1rem;
   gap: 1.5rem;
 }
-.restaurants a {
-  color: black;
-}
-.restaurants input {
-  display: none;
-}
-.restaurants .relative-for-like {
-  position: relative;
-}
 .restaurants__title {
   padding-left: 0.5em;
 }
@@ -299,6 +298,156 @@ section {
   flex-direction: column;
   justify-content: center;
   gap: 1.2rem;
+}
+.restaurants a {
+  color: black;
+}
+.restaurants input {
+  display: none;
+}
+.restaurants .relative-for-like-1 {
+  position: relative;
+}
+.restaurants .relative-for-like-1__input:checked ~ .relative-for-like-1__label .relative-for-like-1__icon--heart-stop-1 {
+  stop-color: #FF79DA;
+}
+.restaurants .relative-for-like-1__input:checked ~ .relative-for-like-1__label .relative-for-like-1__icon--heart-stop-2 {
+  stop-color: #9356dc;
+}
+.restaurants .relative-for-like-1__input:checked ~ .relative-for-like-1__label .relative-for-like-1__icon--border-stop-1 {
+  stop-color: #FF79DA;
+}
+.restaurants .relative-for-like-1__input:checked ~ .relative-for-like-1__label .relative-for-like-1__icon--border-stop-2 {
+  stop-color: #9356dc;
+}
+.restaurants .relative-for-like-1__label {
+  position: absolute;
+  z-index: 2;
+  bottom: 24px;
+  right: 1.5em;
+}
+.restaurants .relative-for-like-1__icon {
+  transform-origin: center;
+  width: 24px;
+  stroke-width: 2em;
+  overflow: visible;
+  cursor: pointer;
+}
+.restaurants .relative-for-like-1__icon--heart-stop-1, .restaurants .relative-for-like-1__icon--heart-stop-2 {
+  stop-color: white;
+  transition: all 300ms;
+}
+.restaurants .relative-for-like-1__icon--border-stop-1, .restaurants .relative-for-like-1__icon--border-stop-2 {
+  stop-color: black;
+  transition: all 300ms;
+}
+.restaurants .relative-for-like-2 {
+  position: relative;
+}
+.restaurants .relative-for-like-2__input:checked ~ .relative-for-like-2__label .relative-for-like-2__icon--heart-stop-1 {
+  stop-color: #FF79DA;
+}
+.restaurants .relative-for-like-2__input:checked ~ .relative-for-like-2__label .relative-for-like-2__icon--heart-stop-2 {
+  stop-color: #9356dc;
+}
+.restaurants .relative-for-like-2__input:checked ~ .relative-for-like-2__label .relative-for-like-2__icon--border-stop-1 {
+  stop-color: #FF79DA;
+}
+.restaurants .relative-for-like-2__input:checked ~ .relative-for-like-2__label .relative-for-like-2__icon--border-stop-2 {
+  stop-color: #9356dc;
+}
+.restaurants .relative-for-like-2__label {
+  position: absolute;
+  z-index: 2;
+  bottom: 24px;
+  right: 1.5em;
+}
+.restaurants .relative-for-like-2__icon {
+  transform-origin: center;
+  width: 24px;
+  stroke-width: 2em;
+  overflow: visible;
+  cursor: pointer;
+}
+.restaurants .relative-for-like-2__icon--heart-stop-1, .restaurants .relative-for-like-2__icon--heart-stop-2 {
+  stop-color: white;
+  transition: all 300ms;
+}
+.restaurants .relative-for-like-2__icon--border-stop-1, .restaurants .relative-for-like-2__icon--border-stop-2 {
+  stop-color: black;
+  transition: all 300ms;
+}
+.restaurants .relative-for-like-3 {
+  position: relative;
+}
+.restaurants .relative-for-like-3__input:checked ~ .relative-for-like-3__label .relative-for-like-3__icon--heart-stop-1 {
+  stop-color: #FF79DA;
+}
+.restaurants .relative-for-like-3__input:checked ~ .relative-for-like-3__label .relative-for-like-3__icon--heart-stop-2 {
+  stop-color: #9356dc;
+}
+.restaurants .relative-for-like-3__input:checked ~ .relative-for-like-3__label .relative-for-like-3__icon--border-stop-1 {
+  stop-color: #FF79DA;
+}
+.restaurants .relative-for-like-3__input:checked ~ .relative-for-like-3__label .relative-for-like-3__icon--border-stop-2 {
+  stop-color: #9356dc;
+}
+.restaurants .relative-for-like-3__label {
+  position: absolute;
+  z-index: 2;
+  bottom: 24px;
+  right: 1.5em;
+}
+.restaurants .relative-for-like-3__icon {
+  transform-origin: center;
+  width: 24px;
+  stroke-width: 2em;
+  overflow: visible;
+  cursor: pointer;
+}
+.restaurants .relative-for-like-3__icon--heart-stop-1, .restaurants .relative-for-like-3__icon--heart-stop-2 {
+  stop-color: white;
+  transition: all 300ms;
+}
+.restaurants .relative-for-like-3__icon--border-stop-1, .restaurants .relative-for-like-3__icon--border-stop-2 {
+  stop-color: black;
+  transition: all 300ms;
+}
+.restaurants .relative-for-like-4 {
+  position: relative;
+}
+.restaurants .relative-for-like-4__input:checked ~ .relative-for-like-4__label .relative-for-like-4__icon--heart-stop-1 {
+  stop-color: #FF79DA;
+}
+.restaurants .relative-for-like-4__input:checked ~ .relative-for-like-4__label .relative-for-like-4__icon--heart-stop-2 {
+  stop-color: #9356dc;
+}
+.restaurants .relative-for-like-4__input:checked ~ .relative-for-like-4__label .relative-for-like-4__icon--border-stop-1 {
+  stop-color: #FF79DA;
+}
+.restaurants .relative-for-like-4__input:checked ~ .relative-for-like-4__label .relative-for-like-4__icon--border-stop-2 {
+  stop-color: #9356dc;
+}
+.restaurants .relative-for-like-4__label {
+  position: absolute;
+  z-index: 2;
+  bottom: 24px;
+  right: 1.5em;
+}
+.restaurants .relative-for-like-4__icon {
+  transform-origin: center;
+  width: 24px;
+  stroke-width: 2em;
+  overflow: visible;
+  cursor: pointer;
+}
+.restaurants .relative-for-like-4__icon--heart-stop-1, .restaurants .relative-for-like-4__icon--heart-stop-2 {
+  stop-color: white;
+  transition: all 300ms;
+}
+.restaurants .relative-for-like-4__icon--border-stop-1, .restaurants .relative-for-like-4__icon--border-stop-2 {
+  stop-color: black;
+  transition: all 300ms;
 }
 .restaurants .card {
   display: block;
@@ -324,7 +473,7 @@ section {
   transform: translateX(-150%);
   left: 100%;
   margin: 1rem 2rem;
-  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.1);
   height: 30px;
   padding: 0rem 1rem;
   border-radius: 2px;
@@ -343,86 +492,6 @@ section {
   align-items: center;
   background-color: #FFFFFF;
   padding: 1rem 1rem;
-}
-.restaurants .card__like-1 {
-  position: absolute;
-  z-index: 2;
-  bottom: 24px;
-  right: 1.5em;
-}
-.restaurants .card__icon-1 {
-  transform-origin: center;
-  width: 24px;
-  stroke: Black;
-  stroke-width: 2em;
-  overflow: visible;
-  cursor: pointer;
-}
-.restaurants .card__icon-1--gradient stop:first-child {
-  stop-color: white;
-}
-.restaurants .card__icon-1--gradient stop:last-child {
-  stop-color: white;
-}
-.restaurants .card__like-2 {
-  position: absolute;
-  z-index: 2;
-  bottom: 24px;
-  right: 1.5em;
-}
-.restaurants .card__icon-2 {
-  transform-origin: center;
-  width: 24px;
-  stroke: Black;
-  stroke-width: 2em;
-  overflow: visible;
-  cursor: pointer;
-}
-.restaurants .card__icon-2--gradient stop:first-child {
-  stop-color: white;
-}
-.restaurants .card__icon-2--gradient stop:last-child {
-  stop-color: white;
-}
-.restaurants .card__like-3 {
-  position: absolute;
-  z-index: 2;
-  bottom: 24px;
-  right: 1.5em;
-}
-.restaurants .card__icon-3 {
-  transform-origin: center;
-  width: 24px;
-  stroke: Black;
-  stroke-width: 2em;
-  overflow: visible;
-  cursor: pointer;
-}
-.restaurants .card__icon-3--gradient stop:first-child {
-  stop-color: white;
-}
-.restaurants .card__icon-3--gradient stop:last-child {
-  stop-color: white;
-}
-.restaurants .card__like-4 {
-  position: absolute;
-  z-index: 2;
-  bottom: 24px;
-  right: 1.5em;
-}
-.restaurants .card__icon-4 {
-  transform-origin: center;
-  width: 24px;
-  stroke: Black;
-  stroke-width: 2em;
-  overflow: visible;
-  cursor: pointer;
-}
-.restaurants .card__icon-4--gradient stop:first-child {
-  stop-color: white;
-}
-.restaurants .card__icon-4--gradient stop:last-child {
-  stop-color: white;
 }
 .restaurants .card__details > h3 {
   font-size: 20px;
