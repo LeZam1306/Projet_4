@@ -3,7 +3,6 @@
 
 .footer{
     @include mix.flex-set(column,flex-start);
-    align-items: center;
     background-color: var.$footer-background-color;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -12,6 +11,7 @@
 
     @media (min-width: 1024px){
         @include mix.flex-set(row,flex-end);
+        align-items: center;
         padding: 3.8rem 4rem 1.5rem 2rem;
         gap: 6rem;
     }

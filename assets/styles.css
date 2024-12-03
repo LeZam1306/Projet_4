@@ -580,7 +580,6 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
   background-color: #353535;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -592,6 +591,7 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
     padding: 3.8rem 4rem 1.5rem 2rem;
     gap: 6rem;
   }
