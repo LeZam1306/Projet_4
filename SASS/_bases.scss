@@ -38,3 +38,11 @@ ul{
 section{
     padding: 3rem 2rem;
 }
+@media (min-width: 1024px){
+    h1{
+        font-size: 40px;
+    }
+    section{
+        padding: 3rem 12%;
+    }
+}

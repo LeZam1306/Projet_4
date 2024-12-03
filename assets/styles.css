@@ -46,6 +46,14 @@ section {
   padding: 3rem 2rem;
 }
 
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 40px;
+  }
+  section {
+    padding: 3rem 12%;
+  }
+}
 @keyframes loading-page-dot {
   10%, 20% {
     transform: scale(1.1, 0.6);
@@ -90,8 +98,8 @@ section {
   position: fixed;
   width: 100%;
   height: 100vh;
-  z-index: 2;
-  animation: finish-load 300ms 2s ease-in-out forwards;
+  z-index: 3;
+  animation: finish-load 300ms 0s ease-in-out forwards;
 }
 .loading-page__dots {
   display: flex;
@@ -158,6 +166,11 @@ section {
   width: 100%;
   z-index: 1;
 }
+@media (min-width: 1024px) {
+  .site-header__logo {
+    box-shadow: inherit;
+  }
+}
 .site-header__logo > img {
   transform: scale(0.5);
 }
@@ -177,11 +190,21 @@ section {
   gap: 1rem;
   z-index: 0;
 }
+@media (min-width: 1024px) {
+  .site-header__location {
+    box-shadow: inherit;
+  }
+}
 
 .hero {
   flex-direction: column;
   text-align: center;
   display: flex;
+}
+@media (min-width: 1024px) {
+  .hero {
+    gap: 1.3rem;
+  }
 }
 .hero__title {
   margin-bottom: 0.5rem;
@@ -190,6 +213,11 @@ section {
   margin-bottom: 1.5em;
   font-size: 18px;
   font-weight: 300;
+}
+@media (min-width: 1024px) {
+  .hero__subtitle {
+    margin-bottom: 1rem;
+  }
 }
 .hero .btn {
   background: linear-gradient(to top, #9356dc, #FF79DA);
@@ -238,6 +266,13 @@ section {
   justify-content: center;
   gap: 2rem;
 }
+@media (min-width: 1024px) {
+  .functioning__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
 .functioning__icon {
   color: #7E7E7E;
 }
@@ -253,6 +288,12 @@ section {
   border-radius: 20px;
   height: 4.5em;
   position: relative;
+}
+@media (min-width: 1024px) {
+  .functioning__content {
+    width: 25%;
+    padding-right: 2rem;
+  }
 }
 .functioning__content-title {
   font-weight: 500;
@@ -290,8 +331,18 @@ section {
   padding-right: 1rem;
   gap: 1.5rem;
 }
+@media (min-width: 1024px) {
+  .restaurants {
+    padding: 3rem 12%;
+  }
+}
 .restaurants__title {
   padding-left: 0.5em;
+}
+@media (min-width: 1024px) {
+  .restaurants__title {
+    padding-left: 0em;
+  }
 }
 .restaurants__list {
   display: flex;
@@ -299,14 +350,29 @@ section {
   justify-content: center;
   gap: 1.2rem;
 }
+@media (min-width: 1024px) {
+  .restaurants__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  .restaurants__list li {
+    width: 45%;
+  }
+}
 .restaurants a {
   color: black;
+  height: 100%;
 }
 .restaurants input {
   display: none;
 }
 .restaurants .relative-for-like-1 {
   position: relative;
+  height: 100%;
 }
 .restaurants .relative-for-like-1__input:checked ~ .relative-for-like-1__label .relative-for-like-1__icon--heart-stop-1 {
   stop-color: #FF79DA;
@@ -343,6 +409,7 @@ section {
 }
 .restaurants .relative-for-like-2 {
   position: relative;
+  height: 100%;
 }
 .restaurants .relative-for-like-2__input:checked ~ .relative-for-like-2__label .relative-for-like-2__icon--heart-stop-1 {
   stop-color: #FF79DA;
@@ -379,6 +446,7 @@ section {
 }
 .restaurants .relative-for-like-3 {
   position: relative;
+  height: 100%;
 }
 .restaurants .relative-for-like-3__input:checked ~ .relative-for-like-3__label .relative-for-like-3__icon--heart-stop-1 {
   stop-color: #FF79DA;
@@ -415,6 +483,7 @@ section {
 }
 .restaurants .relative-for-like-4 {
   position: relative;
+  height: 100%;
 }
 .restaurants .relative-for-like-4__input:checked ~ .relative-for-like-4__label .relative-for-like-4__icon--heart-stop-1 {
   stop-color: #FF79DA;
@@ -493,6 +562,11 @@ section {
   background-color: #FFFFFF;
   padding: 1rem 1rem;
 }
+@media (min-width: 1024px) {
+  .restaurants .card__content {
+    height: 7vh;
+  }
+}
 .restaurants .card__details > h3 {
   font-size: 20px;
   margin-bottom: 0.3em;
@@ -506,11 +580,21 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
   background-color: #353535;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   gap: 1rem;
   color: white;
+}
+@media (min-width: 1024px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 3.8rem 4rem 1.5rem 2rem;
+    gap: 6rem;
+  }
 }
 .footer__logo {
   transform: scale(0.3);
@@ -524,6 +608,18 @@ section {
   flex-direction: column;
   justify-content: flex-start;
   gap: 0.5rem;
+}
+@media (min-width: 1024px) {
+  .footer__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    order: -1;
+    gap: 1rem;
+  }
+  .footer__list > :nth-child(2) {
+    margin-right: 2rem;
+  }
 }
 .footer i {
   margin-right: 0.5rem;

@@ -1,22 +1,45 @@
 @use "variables" as var;
 @use "mixin" as mix;
 @use "keyframes" as *;
+
 .restaurants{
     @include mix.flex-set(column,flex-start);
     padding-left: 1rem;
     padding-right: 1rem;
     gap: 1.5rem;
 
+    @media (min-width: 1024px){
+        padding: 3rem 12%;
+    }
+
     &__title{
         padding-left: 0.5em;
+
+        @media (min-width: 1024px){
+            padding-left: 0em;
+        }
+
     }
 
     &__list{
         @include mix.flex-set(column,center);
         gap: 1.2rem;
+
+        @media (min-width: 1024px){
+            @include mix.flex-set(row,space-between);
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 3rem;
+            
+            li{
+                width: 45%;
+            }
+        }
+
     }
     a{
         color: black;
+        height: 100%;
     }
     
     input{
@@ -25,6 +48,7 @@
     @for $i from 1 through 4{
         .relative-for-like-#{$i}{
             position: relative;
+            height: 100%;
 
             //When the button is like, the background is filled
             &__input:checked ~ 
@@ -114,6 +138,10 @@
             align-items: center;
             background-color: var.$secondary-background-color;
             padding: 1rem 1rem;
+
+            @media (min-width: 1024px){
+                height: 7vh;
+            }
         }  
         &__details{
             & > h3{
