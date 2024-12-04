@@ -1,5 +1,5 @@
-@use "variables" as var;
-@use "mixin" as mix;
+@use "assets/variables" as var;
+@use "assets/mixin" as mix;
 
 .footer{
     @include mix.flex-set(column,flex-start);

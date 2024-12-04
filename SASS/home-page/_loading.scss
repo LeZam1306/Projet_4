@@ -1,6 +1,7 @@
-@use "keyframes" as *;
-@use "mixin" as mix;
-@use "variables" as var;
+@use "../assets/keyframes" as *;
+@use "../assets/mixin" as mix;
+@use "../assets/variables" as var;
+@mixin loading{
 
 .loading-page{
     @include mix.flex-set(row,center);
@@ -35,4 +36,5 @@
             }
         }
     }
+}
 }

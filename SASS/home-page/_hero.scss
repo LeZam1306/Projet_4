@@ -1,5 +1,6 @@
-@use "variables" as var;
-@use "assets/btn.scss";
+@use "../assets/variables" as var;
+@use "../assets/btn.scss";
+@mixin hero{
 
 .hero{
     flex-direction: column;
@@ -26,4 +27,5 @@
         @include btn.btn;
     }
     
+}
 }

@@ -1,0 +1,11 @@
+    @use "loading";
+    @use "hero";
+    @use "functioning";
+    @use "restaurants";
+
+.home-page{
+    @include functioning.functioning;
+    @include loading.loading;
+    @include hero.hero;
+    @include restaurants.restaurants;
+}

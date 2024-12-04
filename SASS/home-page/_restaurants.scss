@@ -1,6 +1,7 @@
-@use "variables" as var;
-@use "mixin" as mix;
-@use "keyframes" as *;
+@use "../assets/variables" as var;
+@use "../assets/mixin" as mix;
+@use "../assets/keyframes" as *;
+@mixin restaurants{
 
 .restaurants{
     @include mix.flex-set(column,flex-start);
@@ -154,4 +155,5 @@
             }
         }
     }
+}
 }

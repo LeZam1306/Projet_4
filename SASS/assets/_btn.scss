@@ -1,5 +1,5 @@
-@use "../variables" as var;
-@use "../mixin" as mix;
+@use "variables" as var;
+@use "mixin" as mix;
 
 @mixin btn{
     background: linear-gradient(to top,var.$main-color,var.$secondary-color);

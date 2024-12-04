@@ -1,7 +1,6 @@
 @use "bases" as *;
-@use "loading" as *;
 @use "header" as *;
-@use "hero" as *;
-@use "functioning" as *;
-@use "restaurants" as *;
 @use "footer" as *;
+
+//style home page
+@use "home-page/home-page" as *;

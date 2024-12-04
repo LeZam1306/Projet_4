@@ -1,5 +1,6 @@
-@use "variables" as var;
-@use "mixin" as mix;
+@use "../assets/variables" as var;
+@use "../assets/mixin" as mix;
+@mixin functioning{
 
 .functioning{
     background-color: var.$secondary-background-color;
@@ -61,4 +62,5 @@
         }
     }
 
+}
 }
