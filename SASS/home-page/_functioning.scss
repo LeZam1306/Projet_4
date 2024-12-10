@@ -17,10 +17,6 @@
     }
     &__icon{
         color: #7E7E7E;
-
-        &--purple{
-            color: var.$main-color;
-        }
     }
     
     &__content{
@@ -30,6 +26,10 @@
         border-radius: 20px;
         height: 4.5em;
         position: relative;
+
+        &:hover  .functioning__icon{
+            color: var.$main-color;
+        }
 
         @media (min-width: 1024px){
             width: 25%;

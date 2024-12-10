@@ -218,9 +218,6 @@ section {
 .home-page .functioning__icon {
   color: #7E7E7E;
 }
-.home-page .functioning__icon--purple {
-  color: #9356dc;
-}
 .home-page .functioning__content {
   display: flex;
   flex-direction: row;
@@ -230,6 +227,9 @@ section {
   border-radius: 20px;
   height: 4.5em;
   position: relative;
+}
+.home-page .functioning__content:hover .functioning__icon {
+  color: #9356dc;
 }
 @media (min-width: 1024px) {
   .home-page .functioning__content {
@@ -636,16 +636,16 @@ section {
   font-weight: 300;
 }
 
-.la_palette_du_gout .illustration__image {
+.restaurant_pages .illustration__image {
   height: 275px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.la_palette_du_gout .menu-page {
+.restaurant_pages .menu-page {
   background-color: white;
 }
-.la_palette_du_gout .menu {
+.restaurant_pages .menu {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -657,7 +657,2255 @@ section {
   top: -3rem;
   position: relative;
 }
-.la_palette_du_gout .menu::after {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__check::before {
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__check::before {
+  content: "35€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__check::before {
+  content: "30€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__check::before {
+  content: "20€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__check::before {
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__check::before {
+  content: "40€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__check::before {
+  content: "35€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__check::before {
+  content: "44€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__check::before {
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__check::before {
+  content: "18€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__check::before {
+  content: "22€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__check::before {
+  content: "23€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-0__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__check::before {
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-1__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__check::before {
+  content: "25€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-2__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__check::before {
+  content: "35€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-3__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__check::before {
+  content: "20€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-4__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__check::before {
+  content: "20€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-0__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__check::before {
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-1__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__check::before {
+  content: "40€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-2__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__check::before {
+  content: "35€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-3__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__check::before {
+  content: "44€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-0__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__check::before {
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-1__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__check::before {
+  content: "18€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-2__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__check::before {
+  content: "22€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-3__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__check::before {
+  content: "23€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-0__input:checked ~ .card .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__content, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__check > i, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__check::before, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__check::before {
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-1__input:checked ~ .card .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__content, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__check > i, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__check::before, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__check::before {
+  content: "25€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-2__input:checked ~ .card .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__content, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__check > i, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__check::before, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__check::before {
+  content: "35€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-3__input:checked ~ .card .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__content, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__check > i, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__check::before, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__check::before {
+  content: "20€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-0__input:checked ~ .card .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__content, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__check > i, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__check::before, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__check::before {
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-1__input:checked ~ .card .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__content, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__check > i, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__check::before, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__check::before {
+  content: "40€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-2__input:checked ~ .card .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__content, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__check > i, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__check::before, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__check::before {
+  content: "35€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-3__input:checked ~ .card .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__content, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__check > i, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__check::before, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__check::before {
+  content: "44€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-0__input:checked ~ .card .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__content, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__check > i, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__check::before, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__check::before {
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-1__input:checked ~ .card .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__content, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__check > i, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__check::before, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__check::before {
+  content: "18€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-2__input:checked ~ .card .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__content, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__check > i, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__check::before, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__check::before {
+  content: "22€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-3__input:checked ~ .card .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3__input:checked ~ .card .card__check {
+  margin-right: 0px;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__content, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__content h3 {
+  font-weight: 500;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4rem;
+  width: 4rem;
+  background-color: #99e2d0;
+  position: relative;
+  transition: all 300ms;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__check > i, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__check > i {
+  color: white;
+}
+.restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__check::before, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__check::before {
+  content: "23€";
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  left: -2.5rem;
+  bottom: 1rem;
+}
+.restaurant_pages .menu::after {
   content: "";
   position: absolute;
   background-color: #F6F6F6;
@@ -668,7 +2916,7 @@ section {
   transform: translateY(3rem);
 }
 @media (min-width: 1024px) {
-  .la_palette_du_gout .menu {
+  .restaurant_pages .menu {
     max-width: 1055px;
     margin-left: auto;
     margin-right: auto;
@@ -676,35 +2924,35 @@ section {
     align-items: center;
   }
 }
-.la_palette_du_gout .menu__title {
+.restaurant_pages .menu__title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding-right: 1rem;
 }
-.la_palette_du_gout .menu__title .relative-for-like-1 {
+.restaurant_pages .menu__title .relative-for-like-1 {
   position: inherit;
 }
-.la_palette_du_gout .menu__title .relative-for-like-1__input:checked ~ .relative-for-like-1__label .relative-for-like-1__icon--heart-stop-1 {
+.restaurant_pages .menu__title .relative-for-like-1__input:checked ~ .relative-for-like-1__label .relative-for-like-1__icon--heart-stop-1 {
   stop-color: #FF79DA;
 }
-.la_palette_du_gout .menu__title .relative-for-like-1__input:checked ~ .relative-for-like-1__label .relative-for-like-1__icon--heart-stop-2 {
+.restaurant_pages .menu__title .relative-for-like-1__input:checked ~ .relative-for-like-1__label .relative-for-like-1__icon--heart-stop-2 {
   stop-color: #9356dc;
 }
-.la_palette_du_gout .menu__title .relative-for-like-1__input:checked ~ .relative-for-like-1__label .relative-for-like-1__icon--border-stop-1 {
+.restaurant_pages .menu__title .relative-for-like-1__input:checked ~ .relative-for-like-1__label .relative-for-like-1__icon--border-stop-1 {
   stop-color: #FF79DA;
 }
-.la_palette_du_gout .menu__title .relative-for-like-1__input:checked ~ .relative-for-like-1__label .relative-for-like-1__icon--border-stop-2 {
+.restaurant_pages .menu__title .relative-for-like-1__input:checked ~ .relative-for-like-1__label .relative-for-like-1__icon--border-stop-2 {
   stop-color: #9356dc;
 }
-.la_palette_du_gout .menu__title .relative-for-like-1__label {
+.restaurant_pages .menu__title .relative-for-like-1__label {
   position: inherit;
   z-index: 2;
   bottom: 24px;
   right: 1.5em;
 }
-.la_palette_du_gout .menu__title .relative-for-like-1__icon {
+.restaurant_pages .menu__title .relative-for-like-1__icon {
   transform-origin: center;
   width: 24px;
   stroke-width: 2em;
@@ -712,55 +2960,55 @@ section {
   cursor: pointer;
   transform: scaleY(1.1);
 }
-.la_palette_du_gout .menu__title .relative-for-like-1__icon--heart-stop-1, .la_palette_du_gout .menu__title .relative-for-like-1__icon--heart-stop-2 {
+.restaurant_pages .menu__title .relative-for-like-1__icon--heart-stop-1, .restaurant_pages .menu__title .relative-for-like-1__icon--heart-stop-2 {
   stop-color: white;
   transition: all 300ms;
 }
-.la_palette_du_gout .menu__title .relative-for-like-1__icon--border-stop-1, .la_palette_du_gout .menu__title .relative-for-like-1__icon--border-stop-2 {
+.restaurant_pages .menu__title .relative-for-like-1__icon--border-stop-1, .restaurant_pages .menu__title .relative-for-like-1__icon--border-stop-2 {
   stop-color: black;
   transition: all 300ms;
 }
 @media (min-width: 1024px) {
-  .la_palette_du_gout .menu__title {
+  .restaurant_pages .menu__title {
     justify-content: center;
     gap: 1.5rem;
   }
 }
-.la_palette_du_gout .menu__title--text {
+.restaurant_pages .menu__title--text {
   font-size: 28px;
   text-wrap: nowrap;
 }
-.la_palette_du_gout .menu__group, .la_palette_du_gout .menu__selections {
+.restaurant_pages .menu__group, .restaurant_pages .menu__selections {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 12px;
 }
-.la_palette_du_gout .menu__group {
+.restaurant_pages .menu__group {
   transform: translateX(-100vw);
   gap: 17px;
 }
-.la_palette_du_gout .menu__group:nth-child(1) {
+.restaurant_pages .menu__group:nth-child(1) {
   animation: slide 300ms 200ms cubic-bezier(0.79, 0.14, 0.15, 0.86) 1 forwards;
 }
-.la_palette_du_gout .menu__group:nth-child(2) {
+.restaurant_pages .menu__group:nth-child(2) {
   animation: slide 300ms 400ms cubic-bezier(0.79, 0.14, 0.15, 0.86) 1 forwards;
 }
-.la_palette_du_gout .menu__group:nth-child(3) {
+.restaurant_pages .menu__group:nth-child(3) {
   animation: slide 300ms 600ms cubic-bezier(0.79, 0.14, 0.15, 0.86) 1 forwards;
 }
-.la_palette_du_gout .menu__group:nth-child(4) {
+.restaurant_pages .menu__group:nth-child(4) {
   animation: slide 300ms 800ms cubic-bezier(0.79, 0.14, 0.15, 0.86) 1 forwards;
 }
 @media (min-width: 1024px) {
-  .la_palette_du_gout .menu__group {
+  .restaurant_pages .menu__group {
     width: 60%;
   }
 }
-.la_palette_du_gout .menu__group h2 {
+.restaurant_pages .menu__group h2 {
   position: relative;
 }
-.la_palette_du_gout .menu__group h2::after {
+.restaurant_pages .menu__group h2::after {
   position: absolute;
   bottom: -5px;
   left: 0;
@@ -770,739 +3018,10 @@ section {
   height: 3px;
   background-color: #99e2d0;
 }
-.la_palette_du_gout .menu input {
+.restaurant_pages .menu input {
   display: none;
 }
-.la_palette_du_gout .menu .card-menu-1-0__input:checked ~ .card .card__check {
-  margin-right: 0px;
-}
-.la_palette_du_gout .menu .card-menu-1-0 .card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 75px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: white;
-}
-.la_palette_du_gout .menu .card-menu-1-0 .card__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 3rem;
-  gap: 0.2rem;
-  overflow: hidden;
-}
-.la_palette_du_gout .menu .card-menu-1-0 .card__content h3, .la_palette_du_gout .menu .card-menu-1-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.la_palette_du_gout .menu .card-menu-1-0 .card__content h3 {
-  font-weight: 500;
-}
-.la_palette_du_gout .menu .card-menu-1-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 300;
-}
-.la_palette_du_gout .menu .card-menu-1-0 .card__check {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-right: -4rem;
-  width: 4rem;
-  background-color: #99e2d0;
-  position: relative;
-  transition: all 300ms;
-}
-.la_palette_du_gout .menu .card-menu-1-0 .card__check > i {
-  color: white;
-}
-.la_palette_du_gout .menu .card-menu-1-0 .card__check::before {
-  font-weight: 700;
-  display: block;
-  position: absolute;
-  left: -2.5rem;
-  bottom: 1rem;
-}
-.la_palette_du_gout .menu .card-menu-1-1__input:checked ~ .card .card__check {
-  margin-right: 0px;
-}
-.la_palette_du_gout .menu .card-menu-1-1 .card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 75px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: white;
-}
-.la_palette_du_gout .menu .card-menu-1-1 .card__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 3rem;
-  gap: 0.2rem;
-  overflow: hidden;
-}
-.la_palette_du_gout .menu .card-menu-1-1 .card__content h3, .la_palette_du_gout .menu .card-menu-1-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.la_palette_du_gout .menu .card-menu-1-1 .card__content h3 {
-  font-weight: 500;
-}
-.la_palette_du_gout .menu .card-menu-1-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 300;
-}
-.la_palette_du_gout .menu .card-menu-1-1 .card__check {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-right: -4rem;
-  width: 4rem;
-  background-color: #99e2d0;
-  position: relative;
-  transition: all 300ms;
-}
-.la_palette_du_gout .menu .card-menu-1-1 .card__check > i {
-  color: white;
-}
-.la_palette_du_gout .menu .card-menu-1-1 .card__check::before {
-  content: "35€";
-  font-weight: 700;
-  display: block;
-  position: absolute;
-  left: -2.5rem;
-  bottom: 1rem;
-}
-.la_palette_du_gout .menu .card-menu-1-2__input:checked ~ .card .card__check {
-  margin-right: 0px;
-}
-.la_palette_du_gout .menu .card-menu-1-2 .card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 75px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: white;
-}
-.la_palette_du_gout .menu .card-menu-1-2 .card__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 3rem;
-  gap: 0.2rem;
-  overflow: hidden;
-}
-.la_palette_du_gout .menu .card-menu-1-2 .card__content h3, .la_palette_du_gout .menu .card-menu-1-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.la_palette_du_gout .menu .card-menu-1-2 .card__content h3 {
-  font-weight: 500;
-}
-.la_palette_du_gout .menu .card-menu-1-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 300;
-}
-.la_palette_du_gout .menu .card-menu-1-2 .card__check {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-right: -4rem;
-  width: 4rem;
-  background-color: #99e2d0;
-  position: relative;
-  transition: all 300ms;
-}
-.la_palette_du_gout .menu .card-menu-1-2 .card__check > i {
-  color: white;
-}
-.la_palette_du_gout .menu .card-menu-1-2 .card__check::before {
-  content: "30€";
-  font-weight: 700;
-  display: block;
-  position: absolute;
-  left: -2.5rem;
-  bottom: 1rem;
-}
-.la_palette_du_gout .menu .card-menu-1-3__input:checked ~ .card .card__check {
-  margin-right: 0px;
-}
-.la_palette_du_gout .menu .card-menu-1-3 .card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 75px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: white;
-}
-.la_palette_du_gout .menu .card-menu-1-3 .card__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 3rem;
-  gap: 0.2rem;
-  overflow: hidden;
-}
-.la_palette_du_gout .menu .card-menu-1-3 .card__content h3, .la_palette_du_gout .menu .card-menu-1-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.la_palette_du_gout .menu .card-menu-1-3 .card__content h3 {
-  font-weight: 500;
-}
-.la_palette_du_gout .menu .card-menu-1-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 300;
-}
-.la_palette_du_gout .menu .card-menu-1-3 .card__check {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-right: -4rem;
-  width: 4rem;
-  background-color: #99e2d0;
-  position: relative;
-  transition: all 300ms;
-}
-.la_palette_du_gout .menu .card-menu-1-3 .card__check > i {
-  color: white;
-}
-.la_palette_du_gout .menu .card-menu-1-3 .card__check::before {
-  content: "20€";
-  font-weight: 700;
-  display: block;
-  position: absolute;
-  left: -2.5rem;
-  bottom: 1rem;
-}
-.la_palette_du_gout .menu .card-menu-2-0__input:checked ~ .card .card__check {
-  margin-right: 0px;
-}
-.la_palette_du_gout .menu .card-menu-2-0 .card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 75px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: white;
-}
-.la_palette_du_gout .menu .card-menu-2-0 .card__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 3rem;
-  gap: 0.2rem;
-  overflow: hidden;
-}
-.la_palette_du_gout .menu .card-menu-2-0 .card__content h3, .la_palette_du_gout .menu .card-menu-2-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.la_palette_du_gout .menu .card-menu-2-0 .card__content h3 {
-  font-weight: 500;
-}
-.la_palette_du_gout .menu .card-menu-2-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 300;
-}
-.la_palette_du_gout .menu .card-menu-2-0 .card__check {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-right: -4rem;
-  width: 4rem;
-  background-color: #99e2d0;
-  position: relative;
-  transition: all 300ms;
-}
-.la_palette_du_gout .menu .card-menu-2-0 .card__check > i {
-  color: white;
-}
-.la_palette_du_gout .menu .card-menu-2-0 .card__check::before {
-  font-weight: 700;
-  display: block;
-  position: absolute;
-  left: -2.5rem;
-  bottom: 1rem;
-}
-.la_palette_du_gout .menu .card-menu-2-1__input:checked ~ .card .card__check {
-  margin-right: 0px;
-}
-.la_palette_du_gout .menu .card-menu-2-1 .card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 75px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: white;
-}
-.la_palette_du_gout .menu .card-menu-2-1 .card__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 3rem;
-  gap: 0.2rem;
-  overflow: hidden;
-}
-.la_palette_du_gout .menu .card-menu-2-1 .card__content h3, .la_palette_du_gout .menu .card-menu-2-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.la_palette_du_gout .menu .card-menu-2-1 .card__content h3 {
-  font-weight: 500;
-}
-.la_palette_du_gout .menu .card-menu-2-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 300;
-}
-.la_palette_du_gout .menu .card-menu-2-1 .card__check {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-right: -4rem;
-  width: 4rem;
-  background-color: #99e2d0;
-  position: relative;
-  transition: all 300ms;
-}
-.la_palette_du_gout .menu .card-menu-2-1 .card__check > i {
-  color: white;
-}
-.la_palette_du_gout .menu .card-menu-2-1 .card__check::before {
-  content: "40€";
-  font-weight: 700;
-  display: block;
-  position: absolute;
-  left: -2.5rem;
-  bottom: 1rem;
-}
-.la_palette_du_gout .menu .card-menu-2-2__input:checked ~ .card .card__check {
-  margin-right: 0px;
-}
-.la_palette_du_gout .menu .card-menu-2-2 .card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 75px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: white;
-}
-.la_palette_du_gout .menu .card-menu-2-2 .card__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 3rem;
-  gap: 0.2rem;
-  overflow: hidden;
-}
-.la_palette_du_gout .menu .card-menu-2-2 .card__content h3, .la_palette_du_gout .menu .card-menu-2-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.la_palette_du_gout .menu .card-menu-2-2 .card__content h3 {
-  font-weight: 500;
-}
-.la_palette_du_gout .menu .card-menu-2-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 300;
-}
-.la_palette_du_gout .menu .card-menu-2-2 .card__check {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-right: -4rem;
-  width: 4rem;
-  background-color: #99e2d0;
-  position: relative;
-  transition: all 300ms;
-}
-.la_palette_du_gout .menu .card-menu-2-2 .card__check > i {
-  color: white;
-}
-.la_palette_du_gout .menu .card-menu-2-2 .card__check::before {
-  content: "35€";
-  font-weight: 700;
-  display: block;
-  position: absolute;
-  left: -2.5rem;
-  bottom: 1rem;
-}
-.la_palette_du_gout .menu .card-menu-2-3__input:checked ~ .card .card__check {
-  margin-right: 0px;
-}
-.la_palette_du_gout .menu .card-menu-2-3 .card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 75px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: white;
-}
-.la_palette_du_gout .menu .card-menu-2-3 .card__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 3rem;
-  gap: 0.2rem;
-  overflow: hidden;
-}
-.la_palette_du_gout .menu .card-menu-2-3 .card__content h3, .la_palette_du_gout .menu .card-menu-2-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.la_palette_du_gout .menu .card-menu-2-3 .card__content h3 {
-  font-weight: 500;
-}
-.la_palette_du_gout .menu .card-menu-2-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 300;
-}
-.la_palette_du_gout .menu .card-menu-2-3 .card__check {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-right: -4rem;
-  width: 4rem;
-  background-color: #99e2d0;
-  position: relative;
-  transition: all 300ms;
-}
-.la_palette_du_gout .menu .card-menu-2-3 .card__check > i {
-  color: white;
-}
-.la_palette_du_gout .menu .card-menu-2-3 .card__check::before {
-  content: "44€";
-  font-weight: 700;
-  display: block;
-  position: absolute;
-  left: -2.5rem;
-  bottom: 1rem;
-}
-.la_palette_du_gout .menu .card-menu-3-0__input:checked ~ .card .card__check {
-  margin-right: 0px;
-}
-.la_palette_du_gout .menu .card-menu-3-0 .card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 75px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: white;
-}
-.la_palette_du_gout .menu .card-menu-3-0 .card__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 3rem;
-  gap: 0.2rem;
-  overflow: hidden;
-}
-.la_palette_du_gout .menu .card-menu-3-0 .card__content h3, .la_palette_du_gout .menu .card-menu-3-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.la_palette_du_gout .menu .card-menu-3-0 .card__content h3 {
-  font-weight: 500;
-}
-.la_palette_du_gout .menu .card-menu-3-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 300;
-}
-.la_palette_du_gout .menu .card-menu-3-0 .card__check {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-right: -4rem;
-  width: 4rem;
-  background-color: #99e2d0;
-  position: relative;
-  transition: all 300ms;
-}
-.la_palette_du_gout .menu .card-menu-3-0 .card__check > i {
-  color: white;
-}
-.la_palette_du_gout .menu .card-menu-3-0 .card__check::before {
-  font-weight: 700;
-  display: block;
-  position: absolute;
-  left: -2.5rem;
-  bottom: 1rem;
-}
-.la_palette_du_gout .menu .card-menu-3-1__input:checked ~ .card .card__check {
-  margin-right: 0px;
-}
-.la_palette_du_gout .menu .card-menu-3-1 .card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 75px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: white;
-}
-.la_palette_du_gout .menu .card-menu-3-1 .card__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 3rem;
-  gap: 0.2rem;
-  overflow: hidden;
-}
-.la_palette_du_gout .menu .card-menu-3-1 .card__content h3, .la_palette_du_gout .menu .card-menu-3-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.la_palette_du_gout .menu .card-menu-3-1 .card__content h3 {
-  font-weight: 500;
-}
-.la_palette_du_gout .menu .card-menu-3-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 300;
-}
-.la_palette_du_gout .menu .card-menu-3-1 .card__check {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-right: -4rem;
-  width: 4rem;
-  background-color: #99e2d0;
-  position: relative;
-  transition: all 300ms;
-}
-.la_palette_du_gout .menu .card-menu-3-1 .card__check > i {
-  color: white;
-}
-.la_palette_du_gout .menu .card-menu-3-1 .card__check::before {
-  content: "18€";
-  font-weight: 700;
-  display: block;
-  position: absolute;
-  left: -2.5rem;
-  bottom: 1rem;
-}
-.la_palette_du_gout .menu .card-menu-3-2__input:checked ~ .card .card__check {
-  margin-right: 0px;
-}
-.la_palette_du_gout .menu .card-menu-3-2 .card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 75px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: white;
-}
-.la_palette_du_gout .menu .card-menu-3-2 .card__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 3rem;
-  gap: 0.2rem;
-  overflow: hidden;
-}
-.la_palette_du_gout .menu .card-menu-3-2 .card__content h3, .la_palette_du_gout .menu .card-menu-3-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.la_palette_du_gout .menu .card-menu-3-2 .card__content h3 {
-  font-weight: 500;
-}
-.la_palette_du_gout .menu .card-menu-3-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 300;
-}
-.la_palette_du_gout .menu .card-menu-3-2 .card__check {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-right: -4rem;
-  width: 4rem;
-  background-color: #99e2d0;
-  position: relative;
-  transition: all 300ms;
-}
-.la_palette_du_gout .menu .card-menu-3-2 .card__check > i {
-  color: white;
-}
-.la_palette_du_gout .menu .card-menu-3-2 .card__check::before {
-  content: "22€";
-  font-weight: 700;
-  display: block;
-  position: absolute;
-  left: -2.5rem;
-  bottom: 1rem;
-}
-.la_palette_du_gout .menu .card-menu-3-3__input:checked ~ .card .card__check {
-  margin-right: 0px;
-}
-.la_palette_du_gout .menu .card-menu-3-3 .card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 75px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: white;
-}
-.la_palette_du_gout .menu .card-menu-3-3 .card__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 3rem;
-  gap: 0.2rem;
-  overflow: hidden;
-}
-.la_palette_du_gout .menu .card-menu-3-3 .card__content h3, .la_palette_du_gout .menu .card-menu-3-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.la_palette_du_gout .menu .card-menu-3-3 .card__content h3 {
-  font-weight: 500;
-}
-.la_palette_du_gout .menu .card-menu-3-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 300;
-}
-.la_palette_du_gout .menu .card-menu-3-3 .card__check {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-right: -4rem;
-  width: 4rem;
-  background-color: #99e2d0;
-  position: relative;
-  transition: all 300ms;
-}
-.la_palette_du_gout .menu .card-menu-3-3 .card__check > i {
-  color: white;
-}
-.la_palette_du_gout .menu .card-menu-3-3 .card__check::before {
-  content: "23€";
-  font-weight: 700;
-  display: block;
-  position: absolute;
-  left: -2.5rem;
-  bottom: 1rem;
-}
-.la_palette_du_gout .menu .btn {
+.restaurant_pages .menu .btn {
   background: linear-gradient(to top, #9356dc, #FF79DA);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   border-radius: 25px;
@@ -1522,10 +3041,10 @@ section {
   padding-right: 3rem;
   z-index: 2;
 }
-.la_palette_du_gout .menu .btn:hover {
+.restaurant_pages .menu .btn:hover {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
 }
-.la_palette_du_gout .menu .btn::after {
+.restaurant_pages .menu .btn::after {
   content: "";
   display: block;
   width: 100%;
@@ -1535,6 +3054,6 @@ section {
   position: absolute;
   transition: opacity 400ms;
 }
-.la_palette_du_gout .menu .btn:hover::after {
+.restaurant_pages .menu .btn:hover::after {
   opacity: 0.15;
 }/*# sourceMappingURL=styles.css.map */

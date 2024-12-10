@@ -1,6 +1,6 @@
 @use "hero";
 @use "menu";
-.la_palette_du_gout{
+.restaurant_pages{
     @include hero.hero;
     @include menu.menu;
 }
