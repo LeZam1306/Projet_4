@@ -642,6 +642,9 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.la_palette_du_gout .menu-page {
+  background-color: white;
+}
 .la_palette_du_gout .menu {
   display: flex;
   flex-direction: column;
@@ -652,6 +655,25 @@ section {
   border-radius: 40px 40px 0px 0px;
   position: relative;
   top: -3rem;
+  position: relative;
+}
+.la_palette_du_gout .menu::after {
+  content: "";
+  position: absolute;
+  background-color: #F6F6F6;
+  width: 100%;
+  height: 3rem;
+  bottom: 0;
+  transform: translateY(3rem);
+}
+@media (min-width: 1024px) {
+  .la_palette_du_gout .menu {
+    max-width: 1055px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+  }
 }
 .la_palette_du_gout .menu__title {
   display: flex;
@@ -697,6 +719,12 @@ section {
   stop-color: black;
   transition: all 300ms;
 }
+@media (min-width: 1024px) {
+  .la_palette_du_gout .menu__title {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}
 .la_palette_du_gout .menu__title--text {
   font-size: 28px;
   text-wrap: nowrap;
@@ -709,6 +737,11 @@ section {
 }
 .la_palette_du_gout .menu__group {
   gap: 17px;
+}
+@media (min-width: 1024px) {
+  .la_palette_du_gout .menu__group {
+    width: 60%;
+  }
 }
 .la_palette_du_gout .menu__group h2 {
   position: relative;
@@ -1473,6 +1506,7 @@ section {
   transition: box-shadow 400ms;
   padding-left: 3rem;
   padding-right: 3rem;
+  z-index: 2;
 }
 .la_palette_du_gout .menu .btn:hover {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
