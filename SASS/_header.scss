@@ -5,6 +5,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+
+    &__back-icon{
+        display: block;
+        position: absolute;
+        left: 0;
+        margin: 2rem;
+        z-index: 2;
+    }
 
     &__logo{
         display: flex;
@@ -13,11 +22,15 @@
         width: 100%;
         z-index: 1;
 
+        &--none{
+            box-shadow: inherit;
+        }
+
         @media (min-width: 1024px){
             box-shadow: inherit;
         }
         & > img{
-            transform: scale(0.5);
+            transform: scale(0.4);
         }
     }
     &__icon{

@@ -1,7 +1,7 @@
-    @use "loading";
-    @use "hero";
-    @use "functioning";
-    @use "restaurants";
+@use "loading";
+@use "hero";
+@use "functioning";
+@use "restaurants";
 
 .home-page{
     @include functioning.functioning;

@@ -1,0 +1,73 @@
+@use "mixin" as mix;
+
+@mixin card-menu($section-number, $number,$prices) {
+    @for $i from 0 through $number {
+
+        .card-menu-#{$section-number}-#{$i} {
+
+            &__input:checked~.card .card__check {
+                margin-right: 0px;
+            }
+
+            .card {
+                @include mix.flex-set(row, flex-start);
+                width: 100%;
+                height: 75px;
+                @include mix.shadow-card;
+                border-radius: 15px;
+                overflow: hidden;
+                background-color: white;
+
+                &__content {
+                    flex: 1;
+                    @include mix.flex-set(column, flex-end);
+                    padding-bottom: 1rem;
+                    padding-left: 1rem;
+                    padding-right: 3rem;
+                    gap: 0.2rem;
+                    overflow: hidden;
+
+                    & h3, p{
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    & h3 {
+                        font-weight: 500;
+                    }
+                    & p {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        font-weight: 300;
+                    }
+                }
+
+                &__check {
+                    @include mix.flex-set(row, center);
+                    align-items: center;
+                    margin-right: -4rem;
+                    width: 4rem;
+                    background-color: #99e2d0;
+                    position: relative;
+                    transition: all 300ms;
+
+                    &>i {
+                        color: white;
+                    }
+
+                    &::before {
+                        @if $i > 0 {
+                            content: "#{nth($prices, $i)}";
+                        }
+                        font-weight: 700;
+                        display: block;
+                        position: absolute;
+                        left: -2.5rem;
+                        bottom: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

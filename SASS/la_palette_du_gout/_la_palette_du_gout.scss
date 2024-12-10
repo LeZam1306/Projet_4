@@ -1,0 +1,6 @@
+@use "hero";
+@use "menu";
+.la_palette_du_gout{
+    @include hero.hero;
+    @include menu.menu;
+}
