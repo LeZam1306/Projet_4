@@ -27,12 +27,12 @@
     }
 }
 //------Like animation------//
-@keyframes like {
+@keyframes slide {
     from{
-        transform: scale(1);
+        transform: translateX(-100vw);
     }
-    50%{
-        transform: scale(1.2);
+    100%{
+        transform: translateX(0vw);    
     }
 }
 

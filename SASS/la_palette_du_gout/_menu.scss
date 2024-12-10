@@ -3,6 +3,7 @@
 @use "../assets/card-menu";
 @use "../assets/variables" as var;
 @use "../assets/btn";
+@use "../assets/keyframes" as key;
 @mixin menu{
 
 .menu-page{
@@ -26,6 +27,7 @@
         width: 100%;
         height: 3rem;
         bottom: 0;
+        left: 0;
         transform: translateY(3rem);
     }
 
@@ -58,7 +60,17 @@
         gap: 12px;
     }
     &__group{
+        transform: translateX(-100vw);
         gap: 17px;
+
+        @for $i from 1 through 4{
+            $delay: 200ms*$i;
+
+            &:nth-child(#{$i}){
+                animation: slide 300ms $delay cubic-bezier(0.79,0.14,0.15,0.86) 1 forwards;
+            }
+        }
+
         @media (min-width: 1024px){
             width: 60%;
         }
