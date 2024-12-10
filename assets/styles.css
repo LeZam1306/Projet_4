@@ -68,6 +68,7 @@ section {
   left: 0;
   margin: 2rem;
   z-index: 2;
+  color: black;
 }
 .site-header__logo {
   display: flex;
@@ -682,18 +683,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__content p {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__content--title, .restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__content h3 {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_palette_du_gout .card-menu-1-0 .card__check {
@@ -742,18 +741,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__content p {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__content--title, .restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__content h3 {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_palette_du_gout .card-menu-1-1 .card__check {
@@ -803,18 +800,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__content p {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__content--title, .restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__content h3 {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_palette_du_gout .card-menu-1-2 .card__check {
@@ -864,18 +859,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__content p {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__content--title, .restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__content h3 {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_palette_du_gout .card-menu-1-3 .card__check {
@@ -925,18 +918,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__content p {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__content--title, .restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__content h3 {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_palette_du_gout .card-menu-2-0 .card__check {
@@ -985,18 +976,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__content p {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__content--title, .restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__content h3 {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_palette_du_gout .card-menu-2-1 .card__check {
@@ -1046,18 +1035,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__content p {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__content--title, .restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__content h3 {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_palette_du_gout .card-menu-2-2 .card__check {
@@ -1107,18 +1094,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__content p {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__content--title, .restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__content h3 {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_palette_du_gout .card-menu-2-3 .card__check {
@@ -1168,18 +1153,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__content p {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__content--title, .restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__content h3 {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_palette_du_gout .card-menu-3-0 .card__check {
@@ -1228,18 +1211,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__content p {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__content--title, .restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__content h3 {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_palette_du_gout .card-menu-3-1 .card__check {
@@ -1289,18 +1270,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__content p {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__content--title, .restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__content h3 {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_palette_du_gout .card-menu-3-2 .card__check {
@@ -1350,18 +1329,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__content h3, .restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__content p {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__content--title, .restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__content h3 {
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_palette_du_gout .card-menu-3-3 .card__check {
@@ -1411,18 +1388,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__content p {
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__content--title, .restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__content h3 {
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_note_enchantee .card-menu-1-0 .card__check {
@@ -1471,18 +1446,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__content p {
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__content--title, .restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__content h3 {
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_note_enchantee .card-menu-1-1 .card__check {
@@ -1532,18 +1505,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__content p {
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__content--title, .restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__content h3 {
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_note_enchantee .card-menu-1-2 .card__check {
@@ -1593,18 +1564,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__content p {
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__content--title, .restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__content h3 {
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_note_enchantee .card-menu-1-3 .card__check {
@@ -1654,18 +1623,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__content p {
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__content--title, .restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__content h3 {
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_note_enchantee .card-menu-1-4 .card__check {
@@ -1715,18 +1682,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__content p {
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__content--title, .restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__content h3 {
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_note_enchantee .card-menu-2-0 .card__check {
@@ -1775,18 +1740,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__content p {
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__content--title, .restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__content h3 {
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_note_enchantee .card-menu-2-1 .card__check {
@@ -1836,18 +1799,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__content p {
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__content--title, .restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__content h3 {
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_note_enchantee .card-menu-2-2 .card__check {
@@ -1897,18 +1858,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__content p {
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__content--title, .restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__content h3 {
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_note_enchantee .card-menu-2-3 .card__check {
@@ -1958,18 +1917,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__content p {
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__content--title, .restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__content h3 {
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_note_enchantee .card-menu-3-0 .card__check {
@@ -2018,18 +1975,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__content p {
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__content--title, .restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__content h3 {
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_note_enchantee .card-menu-3-1 .card__check {
@@ -2079,18 +2034,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__content p {
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__content--title, .restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__content h3 {
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_note_enchantee .card-menu-3-2 .card__check {
@@ -2140,18 +2093,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__content h3, .restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__content p {
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__content--title, .restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__content h3 {
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-la_note_enchantee .card-menu-3-3 .card__check {
@@ -2201,18 +2152,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__content p {
+.restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__content--title, .restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__content h3 {
+.restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-a_la_francaise .card-menu-1-0 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-0 .card__check {
@@ -2261,18 +2210,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__content p {
+.restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__content--title, .restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__content h3 {
+.restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-a_la_francaise .card-menu-1-1 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-1 .card__check {
@@ -2322,18 +2269,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__content p {
+.restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__content--title, .restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__content h3 {
+.restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-a_la_francaise .card-menu-1-2 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-2 .card__check {
@@ -2383,18 +2328,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__content p {
+.restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__content--title, .restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__content h3 {
+.restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-a_la_francaise .card-menu-1-3 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-1-3 .card__check {
@@ -2444,18 +2387,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__content p {
+.restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__content--title, .restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__content h3 {
+.restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-a_la_francaise .card-menu-2-0 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-0 .card__check {
@@ -2504,18 +2445,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__content p {
+.restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__content--title, .restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__content h3 {
+.restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-a_la_francaise .card-menu-2-1 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-1 .card__check {
@@ -2565,18 +2504,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__content p {
+.restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__content--title, .restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__content h3 {
+.restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-a_la_francaise .card-menu-2-2 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-2 .card__check {
@@ -2626,18 +2563,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__content p {
+.restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__content--title, .restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__content h3 {
+.restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-a_la_francaise .card-menu-2-3 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-2-3 .card__check {
@@ -2687,18 +2622,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__content p {
+.restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__content--title, .restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__content h3 {
+.restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-a_la_francaise .card-menu-3-0 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-0 .card__check {
@@ -2747,18 +2680,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__content p {
+.restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__content--title, .restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__content h3 {
+.restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-a_la_francaise .card-menu-3-1 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-1 .card__check {
@@ -2808,18 +2739,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__content p {
+.restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__content--title, .restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__content h3 {
+.restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-a_la_francaise .card-menu-3-2 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-2 .card__check {
@@ -2869,18 +2798,16 @@ section {
   gap: 0.2rem;
   overflow: hidden;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__content h3, .restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__content p {
+.restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__content--title, .restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__content--text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__content h3, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__content h3 {
+.restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__content--title, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__content--title {
   font-weight: 500;
+  font-size: 18px;
 }
-.restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__content p, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__content p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__content--text, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__content--text {
   font-weight: 300;
 }
 .restaurant_pages .menu-a_la_francaise .card-menu-3-3 .card__check, .restaurant_pages .menu-le_delice_des_sens .card-menu-3-3 .card__check {

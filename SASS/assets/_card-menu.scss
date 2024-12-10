@@ -27,18 +27,16 @@
                     gap: 0.2rem;
                     overflow: hidden;
 
-                    & h3, p{
+                    &--title, &--text{
                         overflow: hidden;
                         text-overflow: ellipsis;
                         white-space: nowrap;
                     }
-                    & h3 {
+                    &--title {
                         font-weight: 500;
+                        font-size: 18px;
                     }
-                    & p {
-                        overflow: hidden;
-                        text-overflow: ellipsis;
-                        white-space: nowrap;
+                    &--text {
                         font-weight: 300;
                     }
                 }
