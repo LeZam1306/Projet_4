@@ -93,6 +93,9 @@
     }
     &__group h2{
         position: relative;
+        font-weight: 300;
+        font-size: 17px;
+        text-transform: uppercase;
         &::after{
             position: absolute;
             bottom: -5px;

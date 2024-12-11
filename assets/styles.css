@@ -218,6 +218,7 @@ section {
 }
 .home-page .functioning__icon {
   color: #7E7E7E;
+  transition: all 500ms;
 }
 .home-page .functioning__content {
   display: flex;
@@ -455,10 +456,10 @@ section {
 .home-page .restaurants .relative-for-like-1__icon {
   transform-origin: center;
   width: 24px;
-  stroke-width: 2em;
+  stroke-width: 1.5em;
   overflow: visible;
   cursor: pointer;
-  transform: scaleY(1.1);
+  transform: scale(1, 1.15);
 }
 .home-page .restaurants .relative-for-like-1__icon--heart-stop-1, .home-page .restaurants .relative-for-like-1__icon--heart-stop-2 {
   stop-color: white;
@@ -492,10 +493,10 @@ section {
 .home-page .restaurants .relative-for-like-2__icon {
   transform-origin: center;
   width: 24px;
-  stroke-width: 2em;
+  stroke-width: 1.5em;
   overflow: visible;
   cursor: pointer;
-  transform: scaleY(1.1);
+  transform: scale(1, 1.15);
 }
 .home-page .restaurants .relative-for-like-2__icon--heart-stop-1, .home-page .restaurants .relative-for-like-2__icon--heart-stop-2 {
   stop-color: white;
@@ -529,10 +530,10 @@ section {
 .home-page .restaurants .relative-for-like-3__icon {
   transform-origin: center;
   width: 24px;
-  stroke-width: 2em;
+  stroke-width: 1.5em;
   overflow: visible;
   cursor: pointer;
-  transform: scaleY(1.1);
+  transform: scale(1, 1.15);
 }
 .home-page .restaurants .relative-for-like-3__icon--heart-stop-1, .home-page .restaurants .relative-for-like-3__icon--heart-stop-2 {
   stop-color: white;
@@ -566,10 +567,10 @@ section {
 .home-page .restaurants .relative-for-like-4__icon {
   transform-origin: center;
   width: 24px;
-  stroke-width: 2em;
+  stroke-width: 1.5em;
   overflow: visible;
   cursor: pointer;
-  transform: scaleY(1.1);
+  transform: scale(1, 1.15);
 }
 .home-page .restaurants .relative-for-like-4__icon--heart-stop-1, .home-page .restaurants .relative-for-like-4__icon--heart-stop-2 {
   stop-color: white;
@@ -585,6 +586,11 @@ section {
   border-radius: 15px;
   overflow: hidden;
   position: relative;
+}
+@media (min-width: 1024px) {
+  .home-page .restaurants .card {
+    box-shadow: inherit;
+  }
 }
 .home-page .restaurants .card__image > img {
   height: 180px;
@@ -642,6 +648,11 @@ section {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media (min-width: 1024px) {
+  .restaurant_pages .illustration__image {
+    height: 383px;
+  }
 }
 .restaurant_pages .menu-page {
   background-color: white;
@@ -2882,10 +2893,10 @@ section {
 .restaurant_pages .menu__title .relative-for-like-1__icon {
   transform-origin: center;
   width: 24px;
-  stroke-width: 2em;
+  stroke-width: 1.5em;
   overflow: visible;
   cursor: pointer;
-  transform: scaleY(1.1);
+  transform: scale(1, 1.15);
 }
 .restaurant_pages .menu__title .relative-for-like-1__icon--heart-stop-1, .restaurant_pages .menu__title .relative-for-like-1__icon--heart-stop-2 {
   stop-color: white;
@@ -2934,6 +2945,9 @@ section {
 }
 .restaurant_pages .menu__group h2 {
   position: relative;
+  font-weight: 300;
+  font-size: 17px;
+  text-transform: uppercase;
 }
 .restaurant_pages .menu__group h2::after {
   position: absolute;

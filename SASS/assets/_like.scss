@@ -37,10 +37,10 @@
             &__icon{ //Style of like
                 transform-origin: center;
                 width: 24px;
-                stroke-width: 2em;
+                stroke-width: 1.5em;
                 overflow: visible;
                 cursor: pointer;
-                transform: scaleY(1.1);
+                transform: scale(1,1.15);
                 
                 &--heart-stop-1, //background color of heart
                 &--heart-stop-2{ 

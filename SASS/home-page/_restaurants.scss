@@ -58,6 +58,10 @@
         overflow: hidden;
         position: relative;
 
+        @media (min-width: 1024px){
+            box-shadow: inherit;
+        }
+
         &__image > img{
             height: 180px;
             width: 100%;
