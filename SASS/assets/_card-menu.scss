@@ -9,6 +9,17 @@
                 margin-right: 0px;
             }
 
+            @media (min-width: 1024px){
+                &__input:checked~.card .card__check {
+                    margin-right: -4rem;
+                }
+                &__input:hover~.card .card__check {
+                    margin-right: 0rem;
+                }
+            }
+
+
+
             .card {
                 @include mix.flex-set(row, flex-start);
                 width: 100%;
