@@ -51,8 +51,12 @@
     max-width: 1055px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 0rem;
+    padding-right: 0rem;
     width: 100%;
-    align-items: center;
+    }
+    @media (min-width: 768px){
+        align-items: center;
     }
 
     &__title{
@@ -61,7 +65,7 @@
         @include like.like-btn(1,inherit,inherit);
         padding-right: 1rem;
 
-        @media (min-width: 1024px){
+        @media (min-width: 768px){
             justify-content: center;
             gap: 1.5rem;
         }
@@ -89,6 +93,9 @@
 
         @media (min-width: 1024px){
             width: 60%;
+        }
+        @media (min-width: 768px) and (max-width: 1024px){
+            width: 70%;
         }
     }
     &__group h2{

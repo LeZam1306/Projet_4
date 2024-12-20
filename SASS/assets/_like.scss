@@ -6,7 +6,7 @@
             position: $position-1;
 
             //When the button is like, the background is filled
-            &__input:checked ~ 
+              &__input:checked ~ 
             .relative-for-like-#{$i}__label 
             .relative-for-like-#{$i}__icon--heart-stop-1{
                 stop-color: var.$secondary-color;
