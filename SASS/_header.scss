@@ -50,6 +50,11 @@
         gap: 1rem;
         z-index: 0;
 
+        &--text{
+            all: unset;
+            width: 12ch;
+        }
+
         @media (min-width: 1024px){
             box-shadow: inherit;
         }

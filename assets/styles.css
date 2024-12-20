@@ -104,6 +104,10 @@ section {
   gap: 1rem;
   z-index: 0;
 }
+.site-header__location--text {
+  all: unset;
+  width: 12ch;
+}
 @media (min-width: 1024px) {
   .site-header__location {
     box-shadow: inherit;
