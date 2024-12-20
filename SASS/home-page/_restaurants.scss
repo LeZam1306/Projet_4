@@ -9,7 +9,11 @@
     padding-left: 1rem;
     padding-right: 1rem;
     gap: 1.5rem;
-
+    
+    @media (min-width: 768px) and (max-width: 1024px){
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
     @media (min-width: 1024px){
         padding: 3rem 12%;
     }
